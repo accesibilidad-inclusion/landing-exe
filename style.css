@@ -1,10 +1,55 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Lora', serif;
 }
-
-.grid-container {
-    display: grid;
-    grid-template-columns: auto auto;
-    padding: 10px;
-  }
+.center {
+    margin: auto;
+    width: 80%;
+    text-align: center;
+}
+img.main {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+}
+h1 {
+    color: #FF910F;
+    font-weight: 700;
+    font-size: 52pt;
+}
+h2 {
+    font-weight: 400;
+    font-size: 52pt;
+    font-style: italic;
+}
+h3 {
+    font-size: 20pt;
+    font-weight: 400;
+}
+p.main-text {
+    font-size: 26pt;
+    font-weight: 500;
+}
+.content {
+    padding-left: 170px;
+    padding-right: 599px;
+}
+.button {
+    background: rgba(255,147,15,1);
+    background: -moz-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,147,15,1)), color-stop(48%, rgba(255,175,15,1)), color-stop(100%, rgba(255,185,56,1)));
+    background: -webkit-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
+    background: -o-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
+    background: -ms-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
+    background: linear-gradient(to right, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff930f', endColorstr='#ffb938', GradientType=1 );
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
