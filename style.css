@@ -1,55 +1,78 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     font-family: 'Lora', serif;
 }
-.center {
-    margin: auto;
-    width: 80%;
+
+section {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+}
+
+.info {
     text-align: center;
+    margin: 60px 100px;
 }
-img.main {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 60%;
-}
-h1 {
+.info h1 {
+    font-size: 60pt;
     color: #FF910F;
-    font-weight: 700;
-    font-size: 52pt;
+    font-weight: 600;
 }
-h2 {
-    font-weight: 400;
-    font-size: 52pt;
+.info h2 {
+    font-size: 28pt;
+    color: black;
     font-style: italic;
-}
-h3 {
-    font-size: 20pt;
     font-weight: 400;
 }
-p.main-text {
-    font-size: 26pt;
+.info p {
+    font-size: 16pt;
+    color: black;
+    font-weight: 400;
+    padding-top: 1em;
+}
+
+.paragraph p {
+    font-size: 18pt;
     font-weight: 500;
+    margin: 60px 170px;
+    max-width: 650px;
+    line-height: 193%;
 }
-.content {
-    padding-left: 170px;
-    padding-right: 599px;
+
+p.bajada {
+    font-size: 16pt;
+    font-weight: 500;
+    max-width: 1100px;
 }
-.button {
-    background: rgba(255,147,15,1);
-    background: -moz-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
-    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,147,15,1)), color-stop(48%, rgba(255,175,15,1)), color-stop(100%, rgba(255,185,56,1)));
-    background: -webkit-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
-    background: -o-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
-    background: -ms-linear-gradient(left, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
-    background: linear-gradient(to right, rgba(255,147,15,1) 0%, rgba(255,175,15,1) 48%, rgba(255,185,56,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff930f', endColorstr='#ffb938', GradientType=1 );
+
+.btns {
+    margin: 20px 170px;
+    background-color: #FF910F; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 20px 40px;
     text-align: center;
-    text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 28px;
+    font-weight: 800;
+}
+
+.info-btn-1 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    margin: 2px 4px;
+}
+.info-btn-2 {
+    text-decoration: none;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    margin: 2px 4px;
 }
