@@ -150,7 +150,15 @@ img.img3 {
 }
 
 
-
+@media only screen and (min-width: 1920px) {
+    img.main {
+        height: 700px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
 
 @media only screen and (max-width: 1200px) {
     .paragraph {
