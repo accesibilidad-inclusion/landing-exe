@@ -14,26 +14,32 @@ section {
     justify-content: flex-start;
 }
 
+.paragraph {
+    display: flex;
+}
+
 .info {
     text-align: center;
-    margin: 60px 100px;
+    margin: 40px 100px;
 }
 .info h1 {
-    font-size: 60pt;
+    font-size: 56pt;
     color: #FF910F;
     font-weight: 600;
+    padding-bottom: 10px;
 }
 .info h2 {
-    font-size: 28pt;
+    font-size: 24pt;
     color: black;
     font-style: italic;
     font-weight: 400;
 }
 .info p {
-    font-size: 16pt;
+    font-size: 14pt;
     color: black;
     font-weight: 400;
     padding-top: 1em;
+    padding-bottom: 0em;
 }
 
 
@@ -41,7 +47,7 @@ section {
 .paragraph p {
     font-size: 18pt;
     font-weight: 500;
-    margin: 180px 170px 180px 170px;
+    margin: 120px 170px 120px 170px;
     max-width: 650px;
     line-height: 193%;
 }
@@ -50,6 +56,7 @@ p.bajada {
     font-size: 16pt;
     font-weight: 500;
     max-width: 1100px;
+    margin: 100px 170px 100px 170px;
 }
 
 .btns {
@@ -87,7 +94,7 @@ ul {
     padding: 0;
   }
 ul.contacto {
-    margin: 20px 170px;
+    margin: 10px 170px;
     font-size: 16pt;
     line-height: 20pt;
     font-weight: 500;
@@ -97,6 +104,7 @@ ul.contacto {
     display: flex;
     justify-content: center;
     align-content: center;
+    align-items: center;
     margin-top: 70px;
     margin-bottom: 30px;
 }
@@ -106,9 +114,35 @@ img {
 }
 
 img.main {
-    height: 600px;
+    height: 420px;
     width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+img.descarga {
+    height: 480px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+img.img-side {
+    height: 500px;
+    width: auto;
+    padding: 0px 0px;
+    margin-top: 80px;
+}
+
+img.img2 {
+    height: 120px;
+    width: auto;
+}
+img.img1 {
+    height: 120px;
+    width: auto;
+}
+img.img3 {
+    height: 100px;
+    width: auto;
 }
