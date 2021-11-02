@@ -16,6 +16,7 @@ section {
 
 .paragraph {
     display: flex;
+    flex-direction: row;
 }
 
 .info {
@@ -61,6 +62,7 @@ p.bajada {
 
 .btns {
     display: flex;
+    flex-direction: row;
     align-content: center;
     justify-content: center;
 }
@@ -146,3 +148,148 @@ img.img3 {
     height: 100px;
     width: auto;
 }
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .paragraph {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    img.img-side {
+        padding-bottom: 5em;
+        margin-top: 0px;
+    }
+    .btns {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+  @media only screen and (max-width: 920px) {
+    .info h1 {
+        font-size: 46pt;
+        color: #FF910F;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .info h2 {
+        font-size: 20pt;
+        color: black;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .info p {
+        font-size: 12pt;
+        color: black;
+        font-weight: 400;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+    img.main {
+        height: 360px;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    img.img2 {
+        height: 90px;
+        width: auto;
+    }
+    img.img1 {
+        height: 90px;
+        width: auto;
+    }
+    img.img3 {
+        height: 80px;
+        width: auto;
+    }
+    ul.contacto {
+        margin: 10px 170px;
+        font-size: 14pt;
+        line-height: 20pt;
+        font-weight: 500;
+    }
+    p.bajada {
+        font-size: 14pt;
+        font-weight: 500;
+        max-width: 1100px;
+        margin: 100px 170px 100px 170px;
+    }
+  }
+
+  @media only screen and (max-width: 738px) {
+    .paragraph p {
+        font-size: 18pt;
+        font-weight: 500;
+        margin: 120px 70px 120px 70px;
+        max-width: 650px;
+        line-height: 193%;
+    }
+    ul.contacto {
+        margin: 30px 70px;
+    }
+    p.bajada {
+        margin: 30px 70px 30px 70px;
+    }
+    .paragraph p {
+        margin: 120px 70px 60px 70px;
+        max-width: 100%;
+    }
+    img.main {
+        height: 280px;
+        width: auto;
+    }
+  }
+
+  @media only screen and (max-width: 538px) {
+    .info h1 {
+        font-size: 36pt;
+        color: #FF910F;
+        font-weight: 600;
+        padding-bottom: 10px;
+    }
+    .info h2 {
+        font-size: 18pt;
+        color: black;
+        font-style: italic;
+        font-weight: 400;
+    }
+    .info p {
+        font-size: 10pt;
+        color: black;
+        font-weight: 400;
+        padding-top: 1em;
+        padding-bottom: 0em;
+    }
+    img.main {
+        height: 200px;
+        width: auto;
+    }
+    img.descarga {
+        height: 380px;
+        width: auto;
+    }
+    img.img-side {
+        height: 400px;
+        width: auto;
+    }
+    img.img2 {
+        height: 60px;
+        width: auto;
+    }
+    img.img1 {
+        height: 60px;
+        width: auto;
+    }
+    img.img3 {
+        height: 50px;
+        width: auto;
+    }
+  }
