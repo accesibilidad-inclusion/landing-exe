@@ -6,7 +6,7 @@ ExE Expertos por Experiencia
 
 $col-1: #FF910F;
 $m: 3em;
-
+$shadow: 0 0 5px rgba(0, 0, 0, .1);
 * {
     margin: 0;
     padding: 0;
@@ -105,15 +105,22 @@ main {
 
     p {
         font-size: 1.4em;
+        line-height: 170%;
+        em{
+            color: rgb(61, 58, 61);
+            font-weight: 400;
+        }
     }
 
     ul.ficha {
+        font-size: 1.2em;
+        line-height: 140%;
         padding: 2em;
         margin-top: 2em;
         display: inline-block;
         border-radius: 1ex;
         background-color: lighten($col-1, 39%);
-
+        box-shadow: $shadow;
         li {
             list-style-type: none;
         }
@@ -200,7 +207,8 @@ select {
     position: relative;
     padding: 3em;
     background: #fff;
-    box-shadow: 0 0 15px rgba(0, 0, 0, .1);
+    box-shadow: $shadow;
+    border-radius: 1ex;
 }
 
 /* common */
