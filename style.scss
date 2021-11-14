@@ -194,8 +194,6 @@ select {
     border-color: #aaa;
 }
 
-
-
 /////////////@at-root
 
 .box {
@@ -307,9 +305,6 @@ footer {
         }
     }
 
-    h3 {
-        font-size: 1em;
-    }
 
 
     .cover {
@@ -318,9 +313,13 @@ footer {
 
     select {
         width: 100%;
+        font-size: 16px;
     }
 
     main {
+        h3 {
+            font-size: 1.5em;
+        }
         .cols {
             display: block;
 
@@ -332,7 +331,11 @@ footer {
                 text-align: center;
                 margin: 0 auto;
                 padding: 3em;
-            }
+            } 
+        }
+
+        .ilust{
+            padding: 1em !important;
         }
     }
 
