@@ -1,27 +1,47 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <LINK REL=StyleSheet HREF="style.css" TYPE="text/css" MEDIA=screen>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible"
+        content="IE=edge,chrome=1">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+    <LINK REL=StyleSheet
+        HREF="style.css"
+        TYPE="text/css"
+        MEDIA=screen>
+    <link rel="preconnect"
+        href="https://fonts.googleapis.com">
+    <link rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:wght@900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
     <title>ExE Expertos por experiencia</title>
-    <meta name="title" content="ExE Expertos por Experiancia: El proceso de investigación inclusiva:
+    <meta name="title"
+        content="ExE Expertos por Experiancia: El proceso de investigación inclusiva:
     un desafío para los nuevos tiempos"
-    <meta name="description" content="Reporte del proceso de investigación inclusiva con un grupo de adultos con discapacidad intelectual; métodos, adaptaciones y herramientas para compartir con la comunidad" />
-    <meta name="autor" content="Núcleo de Investigación en Accesibilidad e Inclusión PUCV; Izaskun Álvarez-Aguado, Paulina Carrasco Delgado, Félix González Carrasco, Katherine Exss Cid, Marcela Jarpa Azagra, Herbert Spencer González, Vanessa Vega Córdova" />
-    <meta name="keywords" content="libro, ebook, investigación inclusiva, discapacidad intelectual, accesibilidad"/> 
+        <meta
+        name="description"
+        content="Reporte del proceso de investigación inclusiva con un grupo de adultos con discapacidad intelectual; métodos, adaptaciones y herramientas para compartir con la comunidad" />
+    <meta name="autor"
+        content="Núcleo de Investigación en Accesibilidad e Inclusión PUCV; Izaskun Álvarez-Aguado, Paulina Carrasco Delgado, Félix González Carrasco, Katherine Exss Cid, Marcela Jarpa Azagra, Herbert Spencer González, Vanessa Vega Córdova" />
+    <meta name="keywords"
+        content="libro, ebook, investigación inclusiva, discapacidad intelectual, accesibilidad" />
+    <script src="js/p5.min.js"></script>
+    <script src="js/buy.js"></script>
 </head>
-<body>
 
+<body>
     <header>
         <h1>Expertos por Experiencia</h1>
         <h2>El proceso de investigación inclusiva:<br>un desafío para los nuevos tiempos</h2>
-        <ul class="authors">    
+        <ul class="authors">
             <li>Izaskun Álvarez-Aguado</li>
             <li>Paulina Carrasco Delgado</li>
             <li>Félix González Carrasco</li>
@@ -31,45 +51,64 @@
             <li>Vanessa Vega Córdova</li>
         </ul>
     </header>
-            
-    <img src="images/ilustracion-home.jpg" alt="Ilustración de la portada del libro" aria-describedat="Edificios con la forma de las letras E X E con personas trabajando en investigación inclusiva" class="cover">
-    
+
+    <img src="images/ilustracion-home.jpg"
+        alt="Ilustración de la portada del libro"
+        aria-describedat="Edificios con la forma de las letras E X E con personas trabajando en investigación inclusiva"
+        class="cover">
+
     <main>
         <div class="cols">
-            <p>Este libro relata la experiencia de un equipo de investigación compuesto por académicos y personas con discapacidad intelectual que, durante los últimos tres años, han trabajado desde un enfoque de <em>investigación inclusiva</em>. Este paradigma asume que las personas con discapacidad intelectual deben ser <em>protagonistas de las investigaciones que les competen</em>. Por eso, a lo largo de este libro se describe el proceso de investigación inclusiva desarrollado por el equipo, abordando sus diferentes etapas, actividades y roles.</p>    
-        
-            <img src="images/ilustracion-personas-1.png" class="img-side" alt="personas interactuando">
+            <p>Este libro relata la experiencia de un equipo de investigación compuesto por académicos y personas con
+                discapacidad intelectual que, durante los últimos tres años, han trabajado desde un enfoque de
+                <em>investigación inclusiva</em>. Este paradigma asume que las personas con discapacidad intelectual
+                deben ser <em>protagonistas de las investigaciones que les competen</em>. Por eso, a lo largo de este
+                libro se describe el proceso de investigación inclusiva desarrollado por el equipo, abordando sus
+                diferentes etapas, actividades y roles.</p>
+
+            <img src="images/ilustracion-personas-1.png"
+                class="img-side"
+                alt="personas interactuando">
         </div>
-        
+
 
         <div class="buy box">
             <h3>Adquiere el libro en formato electrónico</h3>
-            <select id="store-selector" class="select-css">
-                <option >Selecciona una tienda</option>
-                <option value="amazon">Amazon Kindle Store</option>
-                <option value="apple">Apple Book Store</option>
-                <option value="google">Google Books</option>
-                <option value="siglo">Librería Siglo</option>
-                <option value="casa">Casa del libro</option>
-            </select>
             <div class="ribbon ribbon-top-right"><span>pronto</span></div>
+            <div id="store-selector"></div>
         </div>
-        
-        <img src="images/ilustracion-personas-2.png" class="ilust" alt="personas discutiendo temas de investigación">
-                
-        <p>Investigación enmarcada dentro del <strong>Proyecto Fondecyt Regular Nº1190789</strong> <em>“Nuevos desafíos para la educación en Chile: Apoyos a la Vida Independiente de adultos con Discapacidad Intelectual o del Desarrollo”</em>, financiado por la <strong>Agencia Nacional de Investigación y Desarrollo (Chile).</strong></p>
-               
+
+        <img src="images/ilustracion-personas-2.png"
+            class="ilust"
+            alt="personas discutiendo temas de investigación">
+
+        <p>Investigación enmarcada dentro del <strong>Proyecto Fondecyt Regular Nº1190789</strong> <em>“Nuevos desafíos
+                para la educación en Chile: Apoyos a la Vida Independiente de adultos con Discapacidad Intelectual o
+                del Desarrollo”</em>, financiado por la <strong>Agencia Nacional de Investigación y Desarrollo
+                (Chile).</strong></p>
+
         <ul class="ficha">
             <li>ISBN: 978-956-17-0958-4</li>
             <li>Ediciones Universitarias de Valparaíso</li>
             <li>Diseño e ilustraciones: María Jesús Osandón, Felipe Meza</li>
             <li>Contacto: accesibilidad-inclusion@ead.cl</li>
         </ul>
-    </main>       
-<footer>
-    <a href="https://pucv.cl/" target="_blank"><img class="img1" src="images/logo-pucv.png" alt="Isotipo de la Pontificia Universidad Católica del Valparaíso"></a>
-    <a href="http://accesibilidad-inclusion.cl" target="_blank"><img class="img2" src="images/logo-nucleo-ai.png" alt="Isotipo del Núcleo de Investigación en Accesibilidad e Inclusión PUCV"></a>
-    <a href="https://www.anid.cl/"target= _blank"><img class="img3" src="images/logo-anid.png" alt="Isotipo de la Agencia Nacional de Investigación"></a>
-</footer>
+    </main>
+
+    <footer>
+        <a href="https://pucv.cl/"
+            target="_blank"><img class="img1"
+                src="images/logo-pucv.png"
+                alt="Isotipo de la Pontificia Universidad Católica del Valparaíso"></a>
+        <a href="http://accesibilidad-inclusion.cl"
+            target="_blank"><img class="img2"
+                src="images/logo-nucleo-ai.png"
+                alt="Isotipo del Núcleo de Investigación en Accesibilidad e Inclusión PUCV"></a>
+        <a href="https://www.anid.cl/"
+            target=_blank"><img class="img3"
+                src="images/logo-anid.png"
+                alt="Isotipo de la Agencia Nacional de Investigación"></a>
+    </footer>
 </body>
+
 </html>
