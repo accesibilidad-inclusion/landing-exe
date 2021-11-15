@@ -38,6 +38,20 @@ header {
         font-size: 3.8em;
         color: $col;
         font-weight: 600;
+
+        &::before{
+            display: block;
+            text-align: center;
+            content: "www.expertosporexperiencia.cl";
+            color: lightgrey;
+            font-size: 1rem;
+        }
+    }
+
+    img{
+        width: 3rem;
+        height: auto;
+        margin: 1em 0 .6em 0;
     }
 
     h2 {
@@ -48,8 +62,13 @@ header {
         margin: 1ex;
     }
 
+    p{
+        font-weight: bold;
+    }
+
     ul {
         margin: 0 $m;
+        widows: 3;
 
         li {
             list-style-type: none;
