@@ -23,13 +23,13 @@ function setup(){
 function buy(){
     switch(sel.value()){
         case "Amazon Kindle Store":
-            window.open("https://www.amazon.es/Expertos-por-Experiencia-investigaci%C3%B3n-inclusiva-ebook/dp/B09NWGB9P2/ref=sr_1_1?__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=K8Q87JAWFXXM&keywords=expertos+por+experiencia&qid=1641816358&sprefix=expertos+por+experienci%2Caps%2C307&sr=8-1");
+            window.open("https://www.amazon.es/dp/B09NWGB9P2");
             break;
         case "Apple Book Store":
             window.open("https://books.apple.com/us/book/expertos-por-experiencia/id1601247900?itsct=books_box_link&itscg=30200&ls=1");
             break;
         case "Google Books":
-            window.open("https://books.google.es/books?hl=es&lr=&id=1ahVEAAAQBAJ&oi=fnd&pg=PT5&ots=FWkAuFHnpW&sig=GLQ-xouSPmpTl9jsI2Br7HAbKPA#v=onepage&q&f=false");
+            window.open("https://books.google.es/books?id=1ahVEAAAQBAJ&lpg=PT5&lr&hl=es&pg=PT5#v=onepage&q&f=false");
             break;
         case "JSTOR":
             window.open("https://www.jstor.org/stable/j.ctv261rc3b?turn_away=true");
