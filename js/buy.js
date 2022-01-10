@@ -11,31 +11,23 @@ function setup(){
     sel.parent("store-selector");
     sel.class('select-css');
     sel.option("Selecciona una tienda");
-    sel.option("Amazon Kindle Store");
-    sel.option("Apple Book Store");
     sel.option("Google Books");
-    sel.option("Librería Siglo");
-    sel.option("Casa del libro");
+    sel.option("JSTOR");
+    sel.option("Scribid");
     // sel.option("OpenSea");
     sel.changed(buy);
 }
 
 function buy(){
     switch(sel.value()){
-        case "Amazon Kindle Store":
-            window.open("https://www.amazon.es/s?k=expertos+por+experiencia");
-            break;
-        case "Apple Book Store":
-            window.open("https://apps.apple.com/es/app/apple-books/id364709193");
-            break;
         case "Google Books":
-            window.open("https://books.google.cl/");
+            window.open("https://books.google.es/books?hl=es&lr=&id=1ahVEAAAQBAJ&oi=fnd&pg=PT5&ots=FWkAuFHnpW&sig=GLQ-xouSPmpTl9jsI2Br7HAbKPA#v=onepage&q&f=false");
             break;
-        case "Librería Siglo":
-            window.open("https://libreriasiglo.com/buscar?s=Expertos+por+experiencia");
+        case "JSTOR":
+            window.open("https://www.jstor.org/stable/j.ctv261rc3b?turn_away=true");
             break;
-        case "Casa del libro":
-            window.open("https://www.casadellibro.com/?q=expertos+por+experiencia");
+        case "Scribid":
+            window.open(" https://es.scribd.com/book/548390478/Expertos-por-Experiencia-El-proceso-de-investigacion-inclusiva-un-desafio-para-los-nuevos-tiempos");
             break;
     }
 }
