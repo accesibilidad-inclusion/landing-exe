@@ -16,6 +16,7 @@ function setup(){
     sel.option("Google Books");
     sel.option("JSTOR");
     sel.option("Scribid");
+    sel.option("BajaLibros");
     // sel.option("OpenSea");
     sel.changed(buy);
 }
@@ -36,6 +37,9 @@ function buy(){
             break;
         case "Scribid":
             window.open("https://es.scribd.com/book/548390478/Expertos-por-Experiencia-El-proceso-de-investigacion-inclusiva-un-desafio-para-los-nuevos-tiempos", "_self");
+            break;
+        case "BajaLibros":
+            window.open("https://www.bajalibros.com/ES/Expertos-por-Experiencia-Vanessa-Vega-Cordova-eBook-2054347", "_self");
             break;
     }
 }
